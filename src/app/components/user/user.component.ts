@@ -8,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class UserComponent implements OnInit {
   name = 'John Doe';
 
-  constructor() { }
+  constructor() {
+    console.log('constructor ran...');
+  }
 
   ngOnInit() {
+    console.log('ngOnInit ran...');
   }
 
 }
