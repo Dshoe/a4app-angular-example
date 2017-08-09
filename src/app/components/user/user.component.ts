@@ -30,7 +30,7 @@ export class UserComponent implements OnInit {
   }
 
   onClick() {
-    console.log('Hello World');
+    this.name = 'Devin';
   }
 
 }
