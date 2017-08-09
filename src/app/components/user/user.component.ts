@@ -26,7 +26,7 @@ export class UserComponent implements OnInit {
       street: '50 Main St',
       city: 'Boston',
       state: 'MA'
-    }
+    };
     this.hobbies = ['Write code', 'Watch movies', 'Listen to music'];
   }
 
