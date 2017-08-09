@@ -21,6 +21,7 @@ export class UserComponent implements OnInit {
     console.log('ngOnInit ran...');
     this.name = 'John Doe';
     this.age = 30;
+    this.email = 'test@email.com';
     this.address = {
       street: '50 Main St',
       city: 'Boston',
@@ -41,7 +42,7 @@ export class UserComponent implements OnInit {
 
   deleteHobby(hobby) {
     console.log(hobby);
-    
+
     for (let i = 0; i < this.hobbies.length; i++) {
       if (this.hobbies[i] == hobby) {
         this.hobbies.splice(i, 1);
