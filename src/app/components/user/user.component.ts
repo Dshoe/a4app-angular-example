@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-  name = 'John Doe';
+  name: string;
 
   constructor() {
     console.log('constructor ran...');
@@ -14,6 +14,7 @@ export class UserComponent implements OnInit {
 
   ngOnInit() {
     console.log('ngOnInit ran...');
+    this.name = 'John Doe';
   }
 
 }
