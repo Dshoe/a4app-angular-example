@@ -10,6 +10,7 @@ export class UserComponent implements OnInit {
   age: number;
   email: string;
   address: Address;
+  hobbies: string[];
 
   constructor() {
     console.log('constructor ran...');
@@ -24,6 +25,7 @@ export class UserComponent implements OnInit {
       city: 'Boston',
       state: 'MA'
     }
+    this.hobbies = ['Write code', 'Watch movies', 'Listen to music'];
   }
 
 }
