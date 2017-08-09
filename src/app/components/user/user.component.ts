@@ -11,6 +11,7 @@ export class UserComponent implements OnInit {
   email: string;
   address: Address;
   hobbies: string[];
+  hello: any;
 
   constructor() {
     console.log('constructor ran...');
